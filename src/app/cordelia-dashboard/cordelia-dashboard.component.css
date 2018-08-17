@@ -24,3 +24,11 @@
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
+h1{
+  font-weight: lighter;
+}
+.mat-button{
+  font-weight: normal;
+}
+
+
