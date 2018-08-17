@@ -4,12 +4,14 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { CordeliaNavComponent } from './cordelia-nav/cordelia-nav.component';
 import { LayoutModule } from '@angular/cdk/layout';
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatGridListModule, MatCardModule, MatMenuModule } from '@angular/material';
+import { CordeliaDashboardComponent } from './cordelia-dashboard/cordelia-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CordeliaNavComponent
+    CordeliaNavComponent,
+    CordeliaDashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -19,7 +21,10 @@ import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, Mat
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatCardModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
