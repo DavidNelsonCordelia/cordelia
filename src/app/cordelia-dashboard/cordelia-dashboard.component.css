@@ -21,34 +21,42 @@
 }
 
 .example-fill-remaining-space {
-  /* This fills the remaining space, by using flexbox.
-     Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
 
 h1 {
   font-weight: normal;
   text-align: center;
+  color: #2A2D34;
 }
 
 .mat-button {
   font-weight: normal;
+  font-family: "freight-sans-pro",sans-serif !important;
+  color: #2A2D34;
 }
 
 mat-toolbar {
   background-color: transparent;
+  padding: 40px;
+}
+
+mat-divider{
+  border-top-color: rgba(42,45,52,0.2);
 }
 
 mat-card{
+  color: #2A2D34;
   background-color:transparent;
-  padding: 50px;
 }
 
 mat-card-title{
+  color: #2A2D34;
   text-align: center;
 }
 
 mat-card-subtitle{
+  color: #2A2D34;
   text-align: center;
 }
 
@@ -59,6 +67,7 @@ mat-card-subtitle{
 .flex-container{
   display: flex;
   justify-content: center;
+  flex-wrap:wrap;
 }
 
 .align-start{
@@ -68,6 +77,36 @@ mat-card-subtitle{
 .align-baseline{
   align-items: baseline;
 }
+
+.accent{
+  color: #439FD8
+}
+
+.accent-background{
+  background-color: #439FD8;
+  color: white;
+}
+
+.light-background{
+  background-color: #EAEBEC
+}
+
+.white-background{
+  background-color:white;
+}
+
+.dark-background{
+  background-color: #2A2D34;
+}
+
+.header-bar {
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+
 
 
 

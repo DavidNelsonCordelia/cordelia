@@ -1,34 +1,35 @@
-<div style="background-color: #EAEBEC;position: fixed; width: 100%">
+<div class="header-bar">
   <mat-toolbar>
     <img src="src/assets/primarylogo.svg" height="50"/>
     <span class="example-fill-remaining-space"></span>
-    <div class="button-row jasmine-bar tk-freight-sans-pro">
-      <a mat-button routerLink="." class="tk-freight-sans-pro">Who We Are</a>
-      <a mat-button routerLink="." class="tk-freight-sans-pro">What We Do</a>
-      <button mat-button color="primary"
-              routerLink="."
-              fragment="#anchor1"
-              class="tk-freight-sans-pro">Contact Us
+    <div class="button-row jasmine-bar ">
+      <a class="mat-button" mat-button href="#whoweare">Who We Are</a>
+      <a class="mat-button" mat-button href="#whatwedo">What We Do</a>
+      <button mat-button
+              onclick="window.location.href='#contact'"
+              class="accent-background mat-button">Contact Us
       </button>
     </div>
   </mat-toolbar>
+  <mat-divider></mat-divider>
 </div>
 
-<div class="grid-container" style="z-index: 0">
+
+<div style="z-index: 0">
   <br>
   <br>
   <br>
-  <div style="background-color: white">
+  <div class="light-background">
     <br/>
-    <h1>Who We Are</h1>
+    <h1 id="whoweare">Who We Are</h1>
     <mat-divider></mat-divider>
     <div class="flex-container align-start">
-      <mat-card style="width: 15%">
+      <mat-card style="width: 15%; padding: 50px; min-width:115px;">
         <img mat-card-image src="src/assets/davidheadshot-01.png">
         <mat-card-title>David Nelson</mat-card-title>
         <mat-card-subtitle>Developer and Co-founder</mat-card-subtitle>
       </mat-card>
-      <mat-card style="width: 15%">
+      <mat-card style="width: 15%;padding: 50px; min-width:115px;">
         <img mat-card-image src="src/assets/kateheadshot-02.png">
         <mat-card-title>Kate Nelson</mat-card-title>
         <mat-card-subtitle>Designer and Front-end</mat-card-subtitle>
@@ -36,12 +37,12 @@
     </div>
   </div>
 
-  <div style="background-color: #EAEBEC">
+  <div class="white-background" >
     <br>
-    <h1>What We Do</h1>
+    <h1 id="whatwedo">What We Do</h1>
     <mat-divider></mat-divider>
     <div class="flex-container">
-      <mat-card style="width: 20%">
+      <mat-card style="width: 25%; min-width:175px;">
         <mat-card-title>Angular</mat-card-title>
         <mat-card-content>
           <p>
@@ -55,7 +56,7 @@
           </p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 20%">
+      <mat-card style="width: 25%; min-width:175px;">
         <mat-card-title>Design</mat-card-title>
         <mat-card-content>
           <p>
@@ -69,7 +70,7 @@
             maximus.</p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 20%">
+      <mat-card style="width: 25%; min-width:175px;">
         <mat-card-title>Web Apps</mat-card-title>
         <mat-card-content>
           <p>
@@ -86,31 +87,31 @@
     </div>
   </div>
 
-  <div style="background-color: white">
+  <div class="light-background" >
     <br>
-    <h1>Contact Us</h1>
+    <h1 id="contact">Contact Us</h1>
     <mat-divider></mat-divider>
     <div class="flex-container align-baseline">
-      <mat-card style="width: 15%">
+      <mat-card style="width: 20%; min-width:140px">
         <mat-card-title>Find Us Online</mat-card-title>
         <mat-card-content>
-          <a href="#">LinkedIn</a>
+          <a href="#" class="accent">LinkedIn</a>
           <br>
-          <a href="#">Github</a>
+          <a href="#" class="accent">Github</a>
           <br>
-          <a href="#">Something else?</a>
+          <a href="#" class="accent">Something else?</a>
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 15%">
+      <mat-card style="width: 20%; min-width:140px">
         <mat-card-title>Reach Out</mat-card-title>
         <mat-card-content>
-          <div class="flex-container align-start">
-            <i class="material-icons" style="padding-right:5px">email</i>
-            kate.nelson@cordelia.info
+          <div style="display:flex; flex-direction: row">
+            <i class="accent material-icons" style="padding-right:5px; width:25px">email</i>
+          kate.nelson@cordelia.info
           </div>
           <br>
-          <div class="flex-container align-start">
-            <i class="material-icons" style="padding-right:5px">place</i>
+          <div style="display:flex; flex-direction:row">
+            <i class="accent material-icons" style="padding-right:5px; width:25px">place</i>
             Cordelia Software and Design, LLC <br>
             804 East E St.<br>
             Moscow, ID<br>
@@ -120,8 +121,6 @@
       </mat-card>
     </div>
   </div>
-  <div style="background-color: #2A2D34; height: 75px;">
-    footer here
+  <div class="dark-background" style="height: 75px;">
   </div>
-
 </div>
