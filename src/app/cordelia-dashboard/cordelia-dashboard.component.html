@@ -1,34 +1,127 @@
+<div style="background-color: #EAEBEC;position: fixed; width: 100%">
+  <mat-toolbar>
+    <img src="src/assets/primarylogo.svg" height="50"/>
+    <span class="example-fill-remaining-space"></span>
+    <div class="button-row jasmine-bar tk-freight-sans-pro">
+      <a mat-button routerLink="." class="tk-freight-sans-pro">Who We Are</a>
+      <a mat-button routerLink="." class="tk-freight-sans-pro">What We Do</a>
+      <button mat-button color="primary"
+              routerLink="."
+              fragment="#anchor1"
+              class="tk-freight-sans-pro">Contact Us
+      </button>
+    </div>
+  </mat-toolbar>
+</div>
 
-
-  <div style="position: fixed; width: 100%">
-    <mat-toolbar>
-      <mat-toolbar-row>
-        <img src="src/assets/primarylogo.svg" height="50"/>
-        <span class="example-fill-remaining-space"></span>
-        <div class="button-row jasmine-bar">
-          <a mat-button routerLink=".">Link 1</a>
-          <a mat-button routerLink=".">Link 2</a>
-          <a mat-button routerLink="." fragment="#anchor1">Link 3</a>
-          <button mat-button color="primary">Primary</button>
-        </div>
-      </mat-toolbar-row>
-    </mat-toolbar>
+<div class="grid-container" style="z-index: 0">
+  <br>
+  <br>
+  <br>
+  <div style="background-color: white">
+    <br/>
+    <h1>Who We Are</h1>
+    <mat-divider></mat-divider>
+    <div class="flex-container align-start">
+      <mat-card style="width: 15%">
+        <img mat-card-image src="src/assets/davidheadshot-01.png">
+        <mat-card-title>David Nelson</mat-card-title>
+        <mat-card-subtitle>Developer and Co-founder</mat-card-subtitle>
+      </mat-card>
+      <mat-card style="width: 15%">
+        <img mat-card-image src="src/assets/kateheadshot-02.png">
+        <mat-card-title>Kate Nelson</mat-card-title>
+        <mat-card-subtitle>Designer and Front-end</mat-card-subtitle>
+      </mat-card>
+    </div>
   </div>
 
-  <div class="grid-container" style="z-index: 0">
-    <br/>
-    <br/>
-    <br/>
-
-    <h1> What we do</h1>
-
+  <div style="background-color: #EAEBEC">
+    <br>
+    <h1>What We Do</h1>
     <mat-divider></mat-divider>
-
-    <h1> Who we are</h1>
-    <mat-divider></mat-divider>
-
-    <h1> Contact us</h1>
-    <mat-divider></mat-divider>
-
-
+    <div class="flex-container">
+      <mat-card style="width: 20%">
+        <mat-card-title>Angular</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
+            tincidunt
+            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
+            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
+            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
+            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
+            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus maximus.
+          </p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card style="width: 20%">
+        <mat-card-title>Design</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
+            tincidunt
+            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
+            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
+            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
+            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
+            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus
+            maximus.</p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card style="width: 20%">
+        <mat-card-title>Web Apps</mat-card-title>
+        <mat-card-content>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
+            tincidunt
+            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
+            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
+            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
+            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
+            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus
+            maximus.</p>
+        </mat-card-content>
+      </mat-card>
+    </div>
   </div>
+
+  <div style="background-color: white">
+    <br>
+    <h1>Contact Us</h1>
+    <mat-divider></mat-divider>
+    <div class="flex-container align-baseline">
+      <mat-card style="width: 15%">
+        <mat-card-title>Find Us Online</mat-card-title>
+        <mat-card-content>
+          <a href="#">LinkedIn</a>
+          <br>
+          <a href="#">Github</a>
+          <br>
+          <a href="#">Something else?</a>
+        </mat-card-content>
+      </mat-card>
+      <mat-card style="width: 15%">
+        <mat-card-title>Reach Out</mat-card-title>
+        <mat-card-content>
+          <div class="flex-container align-start">
+            <i class="material-icons" style="padding-right:5px">email</i>
+            kate.nelson@cordelia.info
+          </div>
+          <br>
+          <div class="flex-container align-start">
+            <i class="material-icons" style="padding-right:5px">place</i>
+            Cordelia Software and Design, LLC <br>
+            804 East E St.<br>
+            Moscow, ID<br>
+            83843
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </div>
+  <div style="background-color: #2A2D34; height: 75px;">
+    footer here
+  </div>
+
+</div>

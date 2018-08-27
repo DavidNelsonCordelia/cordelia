@@ -19,16 +19,57 @@
 .dashboard-card-content {
   text-align: center;
 }
+
 .example-fill-remaining-space {
   /* This fills the remaining space, by using flexbox.
      Every toolbar row uses a flexbox row layout. */
   flex: 1 1 auto;
 }
-h1{
-  font-weight: lighter;
+
+h1 {
+  font-weight: normal;
+  text-align: center;
 }
-.mat-button{
+
+.mat-button {
   font-weight: normal;
 }
+
+mat-toolbar {
+  background-color: transparent;
+}
+
+mat-card{
+  background-color:transparent;
+  padding: 50px;
+}
+
+mat-card-title{
+  text-align: center;
+}
+
+mat-card-subtitle{
+  text-align: center;
+}
+
+.mat-card:not([class*=mat-elevation-z]){
+  box-shadow:0px 0px 0px 0px transparent;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+}
+
+.align-start{
+  align-items: flex-start
+}
+
+.align-baseline{
+  align-items: baseline;
+}
+
+
+
 
 
