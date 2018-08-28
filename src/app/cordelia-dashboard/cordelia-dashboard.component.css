@@ -77,6 +77,9 @@ mat-card-subtitle{
 .align-baseline{
   align-items: baseline;
 }
+.align-center{
+  align-items: center;
+}
 
 .accent{
   color: #439FD8
