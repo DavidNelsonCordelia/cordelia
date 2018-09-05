@@ -7,7 +7,13 @@ import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/l
   templateUrl: './cordelia-dashboard.component.html',
   styleUrls: ['./cordelia-dashboard.component.css']
 })
+
+
 export class CordeliaDashboardComponent {
+
+  public openCloseDavid = true;
+  public openCloseKate = true;
+
   /** Based on the screen size, switch from standard to one column per row */
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
@@ -28,6 +34,7 @@ export class CordeliaDashboardComponent {
       ];
     })
   );
-
   constructor(private breakpointObserver: BreakpointObserver) {}
+
+
 }
