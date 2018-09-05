@@ -29,83 +29,93 @@
         <img mat-card-image src="src/assets/davidheadshot-01.png">
         <mat-card-title>David Nelson</mat-card-title>
         <mat-card-subtitle>Developer and Co-founder<br>
-          <button mat-icon-button><i *ngIf="openCloseDavid===true" class="accent material-icons" (click)="openCloseDavid=!openCloseDavid">expand_more</i>
-            <i *ngIf="openCloseDavid===false" class="accent material-icons" (click)="openCloseDavid=!openCloseDavid">expand_less</i></button>
+          <button mat-icon-button><i *ngIf="openCloseDavid===true" class="accent material-icons"
+                                     (click)="openCloseDavid=!openCloseDavid">expand_more</i>
+            <i *ngIf="openCloseDavid===false" class="accent material-icons" (click)="openCloseDavid=!openCloseDavid">expand_less</i>
+          </button>
         </mat-card-subtitle>
         <mat-card-content *ngIf="openCloseDavid===false">David is the software half of Cordelia.
           He brings with him a decade spanning career as a software engineer in the oil and gas industry.
           David’s favorite days are the ones were he can dive deep into coding uninterrupted,
           and he is always up to learn a new language or framework. Besides writing code,
-          David enjoys white water rafting, talking Idaho politics, and embarrassing Kate. </mat-card-content>
+          David enjoys white water rafting, talking Idaho politics, and embarrassing Kate.
+        </mat-card-content>
 
       </mat-card>
       <mat-card style="width: 15%;padding: 50px; min-width:115px;">
         <img mat-card-image src="src/assets/kateheadshot-02.png">
         <mat-card-title>Kate Nelson</mat-card-title>
         <mat-card-subtitle>Designer and Front-end<br>
-          <button mat-icon-button><i *ngIf="openCloseKate===true" class="accent material-icons" (click)="openCloseKate=!openCloseKate">expand_more</i>
-          <i *ngIf="openCloseKate===false" class="accent material-icons" (click)="openCloseKate=!openCloseKate">expand_less</i></button>
+          <button mat-icon-button><i *ngIf="openCloseKate===true" class="accent material-icons"
+                                     (click)="openCloseKate=!openCloseKate">expand_more</i>
+            <i *ngIf="openCloseKate===false" class="accent material-icons" (click)="openCloseKate=!openCloseKate">expand_less</i>
+          </button>
         </mat-card-subtitle>
         <mat-card-content *ngIf="openCloseKate===false">Kate is the design half of Cordelia.
           She holds a BA in graphic design with emphasis in user experience,
           although she also enjoys writing code on the front end. Kate sees design and development as two
           sides of the same coin; problem solving to build awesome stuff.
-          In her spare time Kate is usually watching entirely too much TV, or out on a run.</mat-card-content>
+          In her spare time Kate is usually watching entirely too much TV, or out on a run.
+        </mat-card-content>
       </mat-card>
     </div>
   </div>
 
-  <div class="white-background" >
+  <div class="white-background">
     <br>
     <h1 id="whatwedo">What We Do</h1>
     <mat-divider></mat-divider>
     <div class="flex-container">
-      <mat-card style="width: 25%; min-width:175px;">
+      <mat-card style="min-width:175px;width: 25%">
         <mat-card-title>Angular</mat-card-title>
         <mat-card-content>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
-            tincidunt
-            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
-            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
-            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
-            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
-            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus maximus.
+            We have extensive experience developing web apps using Angular, Bootstrap, Angular Material and other modern
+            tools. Our experience ranges from simple web sites to rich desktop client ports of enterprise applications to the
+            browser.
+            <br><br>
+            Angular has great tooling and speed, allowing us to develop across multiple platforms in one development
+            effort. Client API’s are easy to connect and data can be displayed in meaningful and effective ways.
+            <br><br>
+            Bootstrap and Angular Material both provide excellent ways to quickly and efficiently create a clean,
+            professional look and feel for our clients’ applications. Customization utilizing your brand is simple and consistent.
           </p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 25%; min-width:175px;">
+      <mat-card style="min-width:175px;width: 25%">
         <mat-card-title>Design</mat-card-title>
         <mat-card-content>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
-            tincidunt
-            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
-            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
-            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
-            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
-            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus
-            maximus.</p>
+            Our approach to design utilizes modern web standards to create responsive, user friendly web applications
+            which functional smoothly across all devices. We are happy to integrate your brand, or help you create one.
+            We then apply this style across your application using modern front-end frameworks such as Bootstrap or
+            Angular Material.
+            <br><br>
+            Most importantly, we carefully consider every screen and interaction a user will see as they use your
+            application. By applying user experience design best practices, we create an application that is attractive and usable,
+            even for new users. </p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 25%; min-width:175px;">
+      <mat-card style="min-width:175px;width: 25%">
         <mat-card-title>Web Apps</mat-card-title>
         <mat-card-content>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dapibus orci et arcu tempor, vel
-            tincidunt
-            mauris ultricies. Curabitur pretium ac mi vel dictum. Duis ac iaculis felis, eget suscipit nulla. Nullam
-            gravida tellus magna, a pellentesque velit lobortis vel. Donec nunc risus, ultricies sed lorem at, imperdiet
-            sagittis turpis. Donec non egestas dolor, at sollicitudin dolor. Cras vehicula nibh eget sem pretium, nec
-            malesuada nisi blandit. Suspendisse ex turpis, sagittis id nulla non, pharetra rhoncus mi. Mauris eget
-            vulputate sem. Mauris pulvinar quam urna, vel tempus libero mollis vehicula. Cras cursus faucibus
-            maximus.</p>
+          <p>In short, a web application is a computer program that is run through your web browser.
+            Web applications combine the best of native applications or desktop software and websites,
+            providing sophisticated applications with advanced functionality, that are easily accessible online.
+            <br>
+            <br>
+            When responsive design is utilized, web applications are able to create a smooth, unified experience
+            regardless of platform. Eliminating the need to create native applications or software means the
+            application is accessed the same way across all devices, “flexing” to meet the needs of the current user.
+            For example, your web app would be accessed through the browser of either an iPhone or Android device.
+            There is no need to create an app for each platform.
+          </p>
         </mat-card-content>
       </mat-card>
     </div>
   </div>
 
-  <div class="light-background" >
+  <div class="light-background">
     <br>
     <h1 id="contact">Contact Us</h1>
     <mat-divider></mat-divider>
@@ -125,7 +135,7 @@
         <mat-card-content>
           <div style="display:flex; flex-direction: row">
             <i class="accent material-icons" style="padding-right:5px; width:25px">email</i>
-          kate.nelson@cordelia.info
+            kate.nelson@cordelia.info
           </div>
           <br>
           <div style="display:flex; flex-direction:row">
