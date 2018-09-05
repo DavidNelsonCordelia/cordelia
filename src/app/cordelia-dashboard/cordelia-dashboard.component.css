@@ -1,3 +1,40 @@
+@media only screen and (max-width: 597px) {
+  .responsive-bar{
+    display: flex;
+    flex-direction:column;
+    justify-content: end;
+    flex-wrap:wrap;
+    align-items: flex-end;
+  }
+
+  .mat-button {
+    font-weight: bold;
+    font-family: "freight-sans-pro",sans-serif !important;
+    color: #2A2D34;
+    font-size: x-small;
+    line-height: 20px;
+
+  }
+}
+
+.mat-button {
+  font-weight: normal;
+  font-family: "freight-sans-pro",sans-serif !important;
+  color: #2A2D34;
+
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+mat-toolbar {
+  background-color: transparent;
+  padding: 40px;
+}
+
 .grid-container {
   margin: 20px;
 }
@@ -10,17 +47,11 @@
   bottom: 15px;
 }
 
-.more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-}
-
 .dashboard-card-content {
   text-align: center;
 }
 
-.example-fill-remaining-space {
+.fill-remaining-space {
   flex: 1 1 auto;
 }
 
@@ -28,17 +59,6 @@ h1 {
   font-weight: normal;
   text-align: center;
   color: #2A2D34;
-}
-
-.mat-button {
-  font-weight: normal;
-  font-family: "freight-sans-pro",sans-serif !important;
-  color: #2A2D34;
-}
-
-mat-toolbar {
-  background-color: transparent;
-  padding: 40px;
 }
 
 mat-divider{
