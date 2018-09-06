@@ -17,6 +17,10 @@
   }
 }
 
+a{
+  text-decoration: none;
+}
+
 .mat-button {
   font-weight: normal;
   font-family: "freight-sans-pro",sans-serif !important;
