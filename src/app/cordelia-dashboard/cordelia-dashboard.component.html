@@ -28,12 +28,29 @@
       <mat-card style="width: 15%; padding: 50px; min-width:115px;">
         <img mat-card-image src="src/assets/davidheadshot-01.png">
         <mat-card-title>David Nelson</mat-card-title>
-        <mat-card-subtitle>Developer and Co-founder</mat-card-subtitle>
+        <mat-card-subtitle>Developer and Co-founder<br>
+          <button mat-icon-button><i *ngIf="openCloseDavid===true" class="accent material-icons" (click)="openCloseDavid=!openCloseDavid">expand_more</i>
+            <i *ngIf="openCloseDavid===false" class="accent material-icons" (click)="openCloseDavid=!openCloseDavid">expand_less</i></button>
+        </mat-card-subtitle>
+        <mat-card-content *ngIf="openCloseDavid===false">David is the software half of Cordelia.
+          He brings with him a decade spanning career as a software engineer in the oil and gas industry.
+          David’s favorite days are the ones were he can dive deep into coding uninterrupted,
+          and he is always up to learn a new language or framework. Besides writing code,
+          David enjoys white water rafting, talking Idaho politics, and embarrassing Kate. </mat-card-content>
+
       </mat-card>
       <mat-card style="width: 15%;padding: 50px; min-width:115px;">
         <img mat-card-image src="src/assets/kateheadshot-02.png">
         <mat-card-title>Kate Nelson</mat-card-title>
-        <mat-card-subtitle>Designer and Front-end</mat-card-subtitle>
+        <mat-card-subtitle>Designer and Front-end<br>
+          <button mat-icon-button><i *ngIf="openCloseKate===true" class="accent material-icons" (click)="openCloseKate=!openCloseKate">expand_more</i>
+          <i *ngIf="openCloseKate===false" class="accent material-icons" (click)="openCloseKate=!openCloseKate">expand_less</i></button>
+        </mat-card-subtitle>
+        <mat-card-content *ngIf="openCloseKate===false">Kate is the design half of Cordelia.
+          She holds a BA in graphic design with emphasis in user experience,
+          although she also enjoys writing code on the front end. Kate sees design and development as two
+          sides of the same coin; problem solving to build awesome stuff.
+          In her spare time Kate is usually watching entirely too much TV, or out on a run.</mat-card-content>
       </mat-card>
     </div>
   </div>
