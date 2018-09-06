@@ -7,7 +7,7 @@
     align-items: flex-end;
   }
 
-  .mat-button {
+  .toolbar-mat-button {
     font-weight: bold;
     font-family: "freight-sans-pro",sans-serif !important;
     color: #2A2D34;

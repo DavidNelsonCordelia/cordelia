@@ -3,11 +3,11 @@
     <img src="../../assets/primarylogo.svg" height="50"/>
     <span class="fill-remaining-space"></span>
     <div class="button-row jasmine-bar responsive-bar">
-      <a class="mat-button" mat-button href="#whoweare">Who We Are</a>
-      <a class="mat-button" mat-button href="#whatwedo">What We Do</a>
+      <a class="toolbar-mat-button mat-button" mat-button href="#whoweare">Who We Are</a>
+      <a class="toolbar-mat-button mat-button" mat-button href="#whatwedo">What We Do</a>
       <button mat-button
               onclick="window.location.href='#contact'"
-              class="accent-background mat-button">Contact Us
+              class="toolbar-mat-button accent-background mat-button">Contact Us
       </button>
     </div>
   </mat-toolbar>
@@ -40,6 +40,9 @@
           David’s favorite days are the ones were he can dive deep into coding uninterrupted,
           and he is always up to learn a new language or framework. Besides writing code, David
           enjoys white water rafting, talking Idaho politics, and embarrassing Kate.
+          <br>
+          <button mat-button><a href="https://www.linkedin.com/in/david-nelson-7317942a/" class="accent">LinkedIn</a></button>
+          <button mat-button><a href="https://github.com/DavidNelsonCordelia" class="accent">Github</a></button>
         </mat-card-content>
 
       </mat-card>
@@ -57,6 +60,9 @@
           in user experience, although she also enjoys writing code on the front end. Kate sees
           design and development as two sides of the same coin; problem solving to build awesome stuff.
           In her spare time Kate is usually watching entirely too much TV, or out on a run.
+          <br>
+          <button mat-button><a href="https://www.linkedin.com/in/kate-nelson-a07a7a8b/" class="accent">LinkedIn</a></button>
+          <button mat-button><a href="https://github.com/katenelson42" class="accent">Github</a></button>
         </mat-card-content>
       </mat-card>
     </div>
@@ -67,19 +73,6 @@
     <h1 id="whatwedo">What We Do</h1>
     <mat-divider></mat-divider>
     <div class="flex-container">
-      <mat-card style="min-width:175px;width: 25%">
-        <mat-card-title>Angular</mat-card-title>
-        <mat-card-content>
-          <p>
-            We have extensive experience developing web apps using Angular, Bootstrap, Angular Material and other
-            modern tools. Our experience ranges from simple web sites to rich desktop client ports of enterprise
-            applications to the browser.
-            <br><br>
-            Angular has great tooling and speed, allowing us to develop across multiple platforms in one development
-            effort. Client API’s are easy to connect and data can be displayed in meaningful and effective ways.
-          </p>
-        </mat-card-content>
-      </mat-card>
       <mat-card style="min-width:175px;width: 25%">
         <mat-card-title>Design</mat-card-title>
         <mat-card-content>
@@ -92,6 +85,19 @@
             Most importantly, we carefully consider every screen and interaction a user will see as they use your
             application. By applying user experience design best practices, we create an application that is attractive and usable,
             even for new users. </p>
+        </mat-card-content>
+      </mat-card>
+      <mat-card style="min-width:175px;width: 25%">
+        <mat-card-title>Angular</mat-card-title>
+        <mat-card-content>
+          <p>
+            We have extensive experience developing web apps using Angular, Bootstrap, Angular Material and other
+            modern tools. Our experience ranges from simple web sites to rich desktop client ports of enterprise
+            applications to the browser.
+            <br><br>
+            Angular has great tooling and speed, allowing us to develop across multiple platforms in one development
+            effort. Client API’s are easy to connect and data can be displayed in meaningful and effective ways.
+          </p>
         </mat-card-content>
       </mat-card>
       <mat-card style="min-width:175px;width: 25%">
@@ -121,9 +127,9 @@
       <mat-card style="width: 20%; min-width:155px">
         <mat-card-title>Find Us Online</mat-card-title>
         <mat-card-content>
-          <a href="#" class="accent">LinkedIn</a>
+          <a href="https://www.linkedin.com/company/cordelia-software-and-design/" class="accent">LinkedIn</a>
           <br>
-          <a href="#" class="accent">Github</a>
+          <a href="https://github.com/katenelson42" class="accent">Github</a>
         </mat-card-content>
       </mat-card>
       <mat-card style="width: 20%; min-width:155px">
