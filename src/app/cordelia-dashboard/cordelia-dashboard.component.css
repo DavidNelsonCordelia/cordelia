@@ -60,9 +60,11 @@ mat-toolbar {
 }
 
 h1 {
-  font-weight: normal;
+  font-weight: 600;
   text-align: center;
   color: #2A2D34;
+  text-transform: uppercase;
+  letter-spacing: 7px;
 }
 
 mat-divider{
@@ -76,7 +78,9 @@ mat-card{
 
 mat-card-title{
   color: #2A2D34;
+  font-weight: bold;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 mat-card-subtitle{
@@ -127,10 +131,11 @@ mat-card-subtitle{
 }
 
 .header-bar {
-  background-color: white;
+  background-color: #439FD8;
   position: fixed;
   width: 100%;
   z-index: 10;
+  box-shadow: 1px 5px 10px rgba(0, 0, 0, .2)
 }
 
 
