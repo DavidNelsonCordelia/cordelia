@@ -5,7 +5,7 @@ import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/l
 @Component({
   selector: 'app-cordelia-dashboard',
   templateUrl: './cordelia-dashboard.component.html',
-  styleUrls: ['./cordelia-dashboard.component.css']
+  styleUrls: ['./cordelia-dashboard.component.css', './../app.component.css']
 })
 
 

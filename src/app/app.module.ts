@@ -16,6 +16,7 @@ import {
 } from '@angular/material';
 import {CordeliaDashboardComponent} from './cordelia-dashboard/cordelia-dashboard.component';
 import {OnlineCoopComponent} from './online-coop/online-coop.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import {OnlineCoopComponent} from './online-coop/online-coop.component';
     MatListModule,
     MatGridListModule,
     MatCardModule,
-    MatMenuModule
+    MatMenuModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

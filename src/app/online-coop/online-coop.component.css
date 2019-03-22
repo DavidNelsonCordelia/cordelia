@@ -1,0 +1,10 @@
+.fancy-h1{
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 2em;
+  color: #2A2D34;
+  text-align: center;
+  padding-left: 3em;
+  padding-right: 3em;
+  max-width: 70vw;
+}

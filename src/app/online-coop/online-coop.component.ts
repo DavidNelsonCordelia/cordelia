@@ -5,7 +5,7 @@ import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/l
 @Component({
   selector: 'app-online-coop',
   templateUrl: './online-coop.component.html',
-  styleUrls: ['./online-coop.component.css']
+  styleUrls: ['./online-coop.component.css', './../app.component.css']
 })
 
 

@@ -13,7 +13,6 @@
     color: #2A2D34;
     font-size: x-small;
     line-height: 20px;
-
   }
 }
 
@@ -55,10 +54,6 @@ mat-toolbar {
   text-align: center;
 }
 
-.fill-remaining-space {
-  flex: 1 1 auto;
-}
-
 h1 {
   font-weight: 600;
   text-align: center;
@@ -92,42 +87,8 @@ mat-card-subtitle{
   box-shadow:0px 0px 0px 0px transparent;
 }
 
-.flex-container{
-  display: flex;
-  justify-content: center;
-  flex-wrap:wrap;
-}
-
-.align-start{
-  align-items: flex-start
-}
-
-.align-baseline{
-  align-items: baseline;
-}
-.align-center{
-  align-items: center;
-}
-
 .accent{
   color: #439FD8
-}
-
-.accent-background{
-  background-color: #439FD8;
-  color: white;
-}
-
-.light-background{
-  background-color: #EAEBEC
-}
-
-.white-background{
-  background-color:white;
-}
-
-.dark-background{
-  background-color: #2A2D34;
 }
 
 .header-bar {
