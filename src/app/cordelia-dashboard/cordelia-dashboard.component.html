@@ -1,16 +1,17 @@
 <div class="header-bar">
-  <mat-toolbar>
-    <img src="../../assets/primarylogo.svg" height="50"/>
-    <span class="fill-remaining-space"></span>
-    <div class="button-row jasmine-bar responsive-bar">
-      <a class="toolbar-mat-button mat-button" mat-button href="#whoweare">WHO WE ARE</a>
-      <a class="toolbar-mat-button mat-button" mat-button href="#whatwedo">WHAT WE DO</a>
-      <button mat-button style="border: 1px solid white;"
-              onclick="window.location.href='#contact'"
-              class="toolbar-mat-button accent-background mat-button">CONTACT
-      </button>
-    </div>
-  </mat-toolbar>
+  <img class="padding-1" src="../../assets/primarylogo.svg" height="70"/>
+
+  <!--  <mat-toolbar style="padding: 2em;">-->
+  <!--    <span class="fill-remaining-space"></span>-->
+  <!--    <div class="button-row jasmine-bar responsive-bar">-->
+  <!--      <a class="toolbar-mat-button mat-button" mat-button href="#whoweare">WHO WE ARE</a>-->
+  <!--      <a class="toolbar-mat-button mat-button" mat-button href="#whatwedo">WHAT WE DO</a>-->
+  <!--      <button mat-button style="border: 1px solid white;"-->
+  <!--              onclick="window.location.href='#contact'"-->
+  <!--              class="toolbar-mat-button accent-background mat-button">CONTACT-->
+  <!--      </button>-->
+  <!--    </div>-->
+  <!--  </mat-toolbar>-->
 </div>
 
 <br>
@@ -18,9 +19,9 @@
 <br>
 
 <div style="z-index: 0">
-
   <div class="white-background">
-    <br/>
+    <br>
+    <br>
     <h1 id="whoweare">Who We Are</h1>
     <div class="flex-container align-start justify-content-center">
       <mat-card style="width: 15%; padding: 50px; min-width:115px;">
@@ -38,9 +39,11 @@
           David’s favorite days are the ones were he can dive deep into coding uninterrupted,
           and he is always up to learn a new language or framework. Besides writing code, David
           enjoys white water rafting, talking Idaho politics, and embarrassing Kate.
-<br>
-          <button mat-button><a href="https://www.linkedin.com/in/david-nelson-7317942a/" class="accent">LinkedIn</a></button>
-          <button mat-button><a href="../../assets/David%20Nelson%20Resume%202018.pdf" class="accent">Resume</a></button>
+          <br>
+          <button mat-button><a href="https://www.linkedin.com/in/david-nelson-7317942a/" class="accent">LinkedIn</a>
+          </button>
+          <button mat-button><a href="../../assets/David%20Nelson%20Resume%202018.pdf" class="accent">Resume</a>
+          </button>
           <!--<button mat-button><a href="mailto:david.nelson@cordelia.info/" class="accent">Email</a></button>-->
           <!--<button mat-button><a href="https://github.com/DavidNelsonCordelia" class="accent">Github</a></button>-->
         </mat-card-content>
@@ -60,7 +63,8 @@
           in user experience, although she also enjoys writing code on the front end. Kate sees
           design and development as two sides of the same coin; problem solving to build awesome stuff.
           In her spare time Kate is usually watching entirely too much TV, or out on a run.<br>
-          <button mat-button><a href="https://www.linkedin.com/in/kate-nelson-a07a7a8b/" class="accent">LinkedIn</a></button>
+          <button mat-button><a href="https://www.linkedin.com/in/kate-nelson-a07a7a8b/" class="accent">LinkedIn</a>
+          </button>
           <button mat-button><a href="../../assets/Kate%20Nelson%20Resume%202018.pdf" class="accent">Resume</a></button>
           <!--<button mat-button><a href="mailto:kate.nelson@cordelia.info/" class="accent">Email</a></button>-->
           <!--<button mat-button><a href="https://github.com/katenelson42" class="accent">Github</a></button>-->
@@ -84,7 +88,8 @@
             Angular Material.
             <br><br>
             Most importantly, we carefully consider every screen and interaction a user will see as they use your
-            application. By applying user experience design best practices, we create an application that is attractive and usable,
+            application. By applying user experience design best practices, we create an application that is attractive
+            and usable,
             even for new users. </p>
         </mat-card-content>
       </mat-card>
@@ -153,14 +158,12 @@
       </mat-card>
     </div>
   </div>
-  <div class="dark-background" style="height: 100px;">
-    <div class="flex-container justify-content-center">
-      <mat-card style="width: 80%; min-width:175px;height: 52px">
-        <mat-card-subtitle class="accent align-center">
-          <i class="material-icons" style="height:15px;">copyright</i><br>
-          2019 Cordelia Software and Design, LLC
-        </mat-card-subtitle>
-      </mat-card>
+
+  <div class="dark-background flex-container justify-content-center">
+    <div class="padding-1 accent proxima-nova">
+      <mat-icon style="font-size:1.75em; width: 100%;text-align: center;">copyright</mat-icon>
+      <br>
+      2019 Cordelia Software and Design, LLC
     </div>
   </div>
 </div>

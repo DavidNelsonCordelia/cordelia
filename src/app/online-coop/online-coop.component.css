@@ -66,10 +66,20 @@ h2{
 }
 
 .image{
-  width: 90%;
+  width: 95%;
   height: auto;
   padding: 2em;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+a{
+  text-decoration: none;
+  color: rgba(42, 45, 52, 1);
+}
+
+a:hover {
+  /*color: rgba(42, 45, 52, 0.75);*/
+  font-weight: bold;
 }
