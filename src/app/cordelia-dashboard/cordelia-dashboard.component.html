@@ -1,31 +1,34 @@
 <div class="header-bar">
-  <img class="padding-1" src="../../assets/primarylogo.svg" height="70"/>
-
-  <!--  <mat-toolbar style="padding: 2em;">-->
-  <!--    <span class="fill-remaining-space"></span>-->
-  <!--    <div class="button-row jasmine-bar responsive-bar">-->
-  <!--      <a class="toolbar-mat-button mat-button" mat-button href="#whoweare">WHO WE ARE</a>-->
-  <!--      <a class="toolbar-mat-button mat-button" mat-button href="#whatwedo">WHAT WE DO</a>-->
-  <!--      <button mat-button style="border: 1px solid white;"-->
-  <!--              onclick="window.location.href='#contact'"-->
-  <!--              class="toolbar-mat-button accent-background mat-button">CONTACT-->
-  <!--      </button>-->
-  <!--    </div>-->
-  <!--  </mat-toolbar>-->
+    <img class="padding-1" src="../../assets/reverseprimarylogo.png" height="70"/>
+<!--  <div class="flex-container justify-content-center">-->
+<!--    <div class="fill-remaining-space"></div>-->
+<!--    <img class="padding-1" src="../../assets/reserseverticallogo.png" height="100"/>-->
+<!--    <div class="fill-remaining-space"></div>-->
+<!--  </div>-->
 </div>
-
-<br>
-<br>
-<br>
+<!--    <mat-toolbar style="padding: 2em;">-->
+<!--      <span class="fill-remaining-space"></span>-->
+<!--      <div class="button-row jasmine-bar responsive-bar">-->
+<!--        <a class="toolbar-mat-button mat-button" mat-button href="dashboard#whoweare">WHO WE ARE</a>-->
+<!--        <a class="toolbar-mat-button mat-button" mat-button href="dashboard#whatwedo">WHAT WE DO</a>-->
+<!--        <button mat-button style="border: 1px solid white;"-->
+<!--                onclick="window.location.href='#contact'"-->
+<!--                class="toolbar-mat-button accent-background mat-button">CONTACT-->
+<!--        </button>-->
+<!--      </div>-->
+<!--    </mat-toolbar>-->
 
 <div style="z-index: 0">
-  <div class="white-background">
-    <br>
-    <br>
-    <h1 id="whoweare">Who We Are</h1>
-    <div class="flex-container align-start justify-content-center">
-      <mat-card style="width: 15%; padding: 50px; min-width:115px;">
-        <img mat-card-image src="../../assets/davidheadshot-01.png">
+  <div class="white-background" style="padding-top: 6em;">
+
+    <div class="flex-container justify-content-center">
+      <h1 class="padding-l" style="width: 100%">
+        Who We Are </h1>
+    </div>
+    <div class="card-deck padding-lr-4">
+
+      <mat-card class="deck-card" style="padding-left: 3em;">
+        <img class="headshot padding-b-1" src="../../assets/davidheadshot-01.png">
         <mat-card-title>David Nelson</mat-card-title>
         <mat-card-subtitle>Full Stack Developer<br>
           <button mat-icon-button><i *ngIf="openCloseDavid===true" class="accent material-icons"
@@ -49,8 +52,8 @@
         </mat-card-content>
 
       </mat-card>
-      <mat-card style="width: 15%;padding: 50px; min-width:115px;">
-        <img mat-card-image src="../../assets/kateheadshot-02.png">
+      <mat-card class="deck-card" style="padding-right: 3em;">
+        <img class="headshot padding-b-1" src="../../assets/kateheadshot-02.png">
         <mat-card-title>Kate Nelson</mat-card-title>
         <mat-card-subtitle>Designer + Front-end<br>
           <button mat-icon-button><i *ngIf="openCloseKate===true" class="accent material-icons"
@@ -74,11 +77,12 @@
   </div>
 
   <div class="light-background">
-    <br>
-    <h1 id="whatwedo">What We Do</h1>
-    <!--<mat-divider></mat-divider>-->
     <div class="flex-container justify-content-center">
-      <mat-card style="min-width:175px;width: 25%">
+      <h1 style="width: 100%">
+        What We Do </h1>
+    </div>
+    <div class="card-deck padding-lr-4">
+      <mat-card class="deck-card">
         <mat-card-title>Design</mat-card-title>
         <mat-card-content>
           <p>
@@ -93,7 +97,7 @@
             even for new users. </p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="min-width:175px;width: 25%">
+      <mat-card class="deck-card">
         <mat-card-title>Angular</mat-card-title>
         <mat-card-content>
           <p>
@@ -106,7 +110,7 @@
           </p>
         </mat-card-content>
       </mat-card>
-      <mat-card style="min-width:175px;width: 25%">
+      <mat-card class="deck-card">
         <mat-card-title>Web Apps</mat-card-title>
         <mat-card-content>
           <p>In short, a web application is a computer program that is run through your web browser.
@@ -125,20 +129,16 @@
     </div>
   </div>
 
-  <div class="white-background" style="box-shadow: 1px 5px 10px rgba(0, 0, 0, .2)">
-    <br>
+  <div class="white-background">
     <h1 id="contact">Contact Us</h1>
-    <!--<mat-divider></mat-divider>-->
-    <div class="flex-container align-baseline justify-content-center">
-      <mat-card style="width: 20%; min-width:155px">
+    <div class="card-deck padding-lrb-2" style="justify-content: center !important">
+      <mat-card class="deck-card" style="max-width: 310px;">
         <mat-card-title>Find Us Online</mat-card-title>
         <mat-card-content>
           <a href="https://www.linkedin.com/company/cordelia-software-and-design/" class="accent">LinkedIn</a>
-          <!--<br>-->
-          <!--<a href="https://github.com/katenelson42" class="accent">Github</a>-->
         </mat-card-content>
       </mat-card>
-      <mat-card style="width: 20%; min-width:155px">
+      <mat-card class="deck-card" style="max-width: 310px;">
         <mat-card-title>Reach Out</mat-card-title>
         <mat-card-content>
           <div style="display:flex; flex-direction: row">
