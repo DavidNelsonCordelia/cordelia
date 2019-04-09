@@ -54,13 +54,6 @@ h2{
   line-height: 1.6em;
 }
 
-.big-icon{
-  font-size: 4em;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 1em;
-}
-
 .mat-card:not([class*=mat-elevation-z]){
   box-shadow:0px 0px 0px 0px transparent;
 }
@@ -79,7 +72,15 @@ a{
   color: rgba(42, 45, 52, 1);
 }
 
+.reverse-text{
+  color: rgba(255,255,255, 1) !important;
+}
+
+.reverse-text:hover{
+  color: rgba(255,255,255, 1) !important;
+}
+
 a:hover {
-  /*color: rgba(42, 45, 52, 0.75);*/
+  color: rgba(42, 45, 52, 0.75);
   font-weight: bold;
 }
