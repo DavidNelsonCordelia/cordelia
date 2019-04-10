@@ -1,10 +1,10 @@
 <div class="header-bar">
-    <img class="padding-1" src="../../assets/reverseprimarylogo.png" height="70"/>
-<!--  <div class="flex-container justify-content-center">-->
-<!--    <div class="fill-remaining-space"></div>-->
-<!--    <img class="padding-1" src="../../assets/reserseverticallogo.png" height="100"/>-->
-<!--    <div class="fill-remaining-space"></div>-->
-<!--  </div>-->
+  <img class="padding-1" src="../../assets/reverseprimarylogo.png" height="70"/>
+  <!--  <div class="flex-container justify-content-center">-->
+  <!--    <div class="fill-remaining-space"></div>-->
+  <!--    <img class="padding-1" src="../../assets/reserseverticallogo.png" height="100"/>-->
+  <!--    <div class="fill-remaining-space"></div>-->
+  <!--  </div>-->
 </div>
 <!--    <mat-toolbar style="padding: 2em;">-->
 <!--      <span class="fill-remaining-space"></span>-->
@@ -26,14 +26,14 @@
         Who We Are </h1>
     </div>
     <div class="card-deck padding-lr-4">
-
-      <mat-card class="deck-card" style="padding-left: 3em;">
+      <mat-card class="deck-card">
         <img class="headshot padding-b-1" src="../../assets/davidheadshot-01.png">
         <mat-card-title>David Nelson</mat-card-title>
         <mat-card-subtitle>Full Stack Developer<br>
           <button mat-icon-button><i *ngIf="openCloseDavid===true" class="accent material-icons more-button"
                                      (click)="openCloseDavid=!openCloseDavid">expand_more</i>
-            <i *ngIf="openCloseDavid===false" class="accent material-icons more-button" (click)="openCloseDavid=!openCloseDavid">expand_less</i>
+            <i *ngIf="openCloseDavid===false" class="accent material-icons more-button"
+               (click)="openCloseDavid=!openCloseDavid">expand_less</i>
           </button>
         </mat-card-subtitle>
         <mat-card-content *ngIf="openCloseDavid===false">
@@ -52,13 +52,14 @@
         </mat-card-content>
 
       </mat-card>
-      <mat-card class="deck-card" style="padding-right: 3em;">
+      <mat-card class="deck-card">
         <img class="headshot padding-b-1" src="../../assets/kateheadshot-02.png">
         <mat-card-title>Kate Nelson</mat-card-title>
         <mat-card-subtitle>Designer + Front-end<br>
           <button mat-icon-button><i *ngIf="openCloseKate===true" class="accent material-icons more-button"
                                      (click)="openCloseKate=!openCloseKate">expand_more</i>
-            <i *ngIf="openCloseKate===false" class="accent material-icons more-button" (click)="openCloseKate=!openCloseKate">expand_less</i>
+            <i *ngIf="openCloseKate===false" class="accent material-icons more-button"
+               (click)="openCloseKate=!openCloseKate">expand_less</i>
           </button>
         </mat-card-subtitle>
         <mat-card-content *ngIf="openCloseKate===false">
@@ -135,10 +136,10 @@
         Our Projects </h1>
     </div>
     <div class="card-deck padding-lr-4">
-      <mat-card class="deck-card" style="padding-left: 3em;">
+      <mat-card class="deck-card" >
         <mat-icon class="big-icon">shopping_basket</mat-icon>
         <mat-card-title>
-          <a routerLink="/onlinecoop" class="accent">
+          <a routerLink="/onlinecoop" class="accent bold-link">
             Online Co-op
           </a>
         </mat-card-title>
@@ -146,8 +147,8 @@
           Online co-op is a digital shopping platform designed specifically with co-op's in mind.
         </mat-card-subtitle>
       </mat-card>
-      <mat-card class="deck-card" style="padding-right: 3em;">
-        <mat-icon class="big-icon">cloud</mat-icon>
+      <mat-card class="deck-card" >
+        <mat-icon class="big-icon">wb_sunny</mat-icon>
         <mat-card-title>
           <a class="accent" href="http://followthesun.cordelia.info.s3-website-us-west-2.amazonaws.com/">
             Follow the Sun
@@ -161,7 +162,11 @@
   </div>
 
   <div class="light-background">
-    <h1 id="contact">Contact Us</h1>
+    <div class="flex-container justify-content-center">
+      <h1 class="padding-l" style="width: 100%">
+        Contact Us
+      </h1>
+    </div>
     <div class="card-deck padding-lrb-2" style="justify-content: center !important">
       <mat-card class="deck-card" style="max-width: 310px;">
         <mat-card-title>Find Us Online</mat-card-title>

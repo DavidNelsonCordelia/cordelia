@@ -116,6 +116,10 @@ mat-card-content {
   height: auto;
 }
 
+a:hover{
+  color: rgba(173, 218, 184, 0.75);
+}
+
 
 
 
