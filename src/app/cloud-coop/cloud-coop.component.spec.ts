@@ -1,18 +1,18 @@
 
 import { fakeAsync, ComponentFixture, TestBed } from '@angular/core/testing';
-import {OnlineCoopComponent} from './online-coop.component';
+import {CloudCoopComponent} from './cloud-coop.component';
 
-describe('OnlineCoopComponent', () => {
-  let component: OnlineCoopComponent;
-  let fixture: ComponentFixture<OnlineCoopComponent>;
+describe('CloudCoopComponent', () => {
+  let component: CloudCoopComponent;
+  let fixture: ComponentFixture<CloudCoopComponent>;
 
   beforeEach(fakeAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ OnlineCoopComponent ]
+      declarations: [ CloudCoopComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(OnlineCoopComponent);
+    fixture = TestBed.createComponent(CloudCoopComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
