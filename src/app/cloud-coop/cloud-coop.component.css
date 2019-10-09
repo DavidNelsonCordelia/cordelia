@@ -1,18 +1,21 @@
-.fancy-header{
+.fancy-header {
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-weight: bold;
   font-size: 2.5em;
-  color: rgba(42, 45, 52, 1);
+  color: #006834;
+  /*color: rgba(42, 45, 52, 1);*/
+
   text-align: center;
   padding-left: 2.5em;
   padding-right: 2.5em;
   font-family: proxima-nova, sans-serif;
 }
 
-h1{
+h1 {
   font-size: 2em;
   color: rgba(42, 45, 52, 1);
+  /*color: #006834;*/
   text-align: center;
   padding-left: 3em;
   padding-right: 3em;
@@ -22,19 +25,21 @@ h1{
   line-height: .9em;
 }
 
-h2{
+h2 {
   max-width: 65vw;
   text-align: center;
   color: rgba(42, 45, 52, 0.75);
+  /*color: #006834;*/
   font-weight: 400;
   font-size: 1.4em;
 }
 
-.wrapper{
+.wrapper {
   font-family: proxima-nova, sans-serif;
 }
 
-.mat-card-title{
+.mat-card-title {
+  /*color: #006834;*/
   font-family: proxima-nova, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -45,7 +50,7 @@ h2{
   text-align: center;
 }
 
-.mat-card-content{
+.mat-card-content {
   font-family: proxima-nova, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -54,11 +59,11 @@ h2{
   line-height: 1.6em;
 }
 
-.mat-card:not([class*=mat-elevation-z]){
-  box-shadow:0px 0px 0px 0px transparent;
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: 0px 0px 0px 0px transparent;
 }
 
-.image{
+.image {
   width: 95%;
   height: auto;
   padding: 2em;
@@ -67,20 +72,34 @@ h2{
   margin-right: auto;
 }
 
-a{
+a {
   text-decoration: none;
   color: rgba(42, 45, 52, 1);
 }
 
-.reverse-text{
-  color: rgba(255,255,255, 1) !important;
+.reverse-text {
+  color: rgba(255, 255, 255, 1) !important;
 }
 
-.reverse-text:hover{
-  color: rgba(255,255,255, 1) !important;
+.reverse-text:hover {
+  color: rgba(255, 255, 255, 1) !important;
 }
 
 a:hover {
   color: rgba(42, 45, 52, 0.75);
   font-weight: bold;
+}
+
+.green-background {
+  background-color: #006834;
+  color: #EAEBEC;
+}
+
+.accent {
+  color: #006834;
+}
+
+.big-icon {
+  color: #006834;
+
 }
