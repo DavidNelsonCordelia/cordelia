@@ -16,7 +16,7 @@ import {
 } from '@angular/material';
 import {CordeliaDashboardComponent} from './cordelia-dashboard/cordelia-dashboard.component';
 import {CloudCoopComponent} from './cloud-coop/cloud-coop.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
