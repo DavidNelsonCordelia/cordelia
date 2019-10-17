@@ -15,8 +15,8 @@ import {
   MatMenuModule
 } from '@angular/material';
 import {CordeliaDashboardComponent} from './cordelia-dashboard/cordelia-dashboard.component';
-import {OnlineCoopComponent} from './online-coop/online-coop.component';
-import { AppRoutingModule } from './/app-routing.module';
+import {CloudCoopComponent} from './cloud-coop/cloud-coop.component';
+import { AppRoutingModule } from './app-routing.module';
 
 
 @NgModule({
@@ -24,7 +24,7 @@ import { AppRoutingModule } from './/app-routing.module';
     AppComponent,
     CordeliaNavComponent,
     CordeliaDashboardComponent,
-    OnlineCoopComponent
+    CloudCoopComponent
   ],
   imports: [
     BrowserModule,
