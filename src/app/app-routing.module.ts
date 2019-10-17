@@ -6,7 +6,7 @@ import { OnlineCoopComponent} from './online-coop/online-coop.component';
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: CordeliaDashboardComponent },
-  { path: 'onlinecoop', component: OnlineCoopComponent },
+  { path: 'cloudcoop', component: OnlineCoopComponent },
 
 ];
 
