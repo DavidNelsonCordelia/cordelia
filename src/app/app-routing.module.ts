@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CordeliaDashboardComponent} from './cordelia-dashboard/cordelia-dashboard.component';
-import { CloudCoopComponent} from './cloud-coop/cloud-coop.component';
+import { CordeliaDashboardComponent } from './cordelia-dashboard/cordelia-dashboard.component';
+import { CloudCoopComponent } from './cloud-coop/cloud-coop.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
