@@ -4,10 +4,9 @@ import { CordeliaDashboardComponent } from './cordelia-dashboard/cordelia-dashbo
 import { CloudCoopComponent } from './cloud-coop/cloud-coop.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: CordeliaDashboardComponent },
   { path: 'cloudcoop', component: CloudCoopComponent },
-
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 ];
 
 @NgModule({
