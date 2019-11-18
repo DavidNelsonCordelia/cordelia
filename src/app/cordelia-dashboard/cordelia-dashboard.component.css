@@ -109,6 +109,10 @@ mat-card-content {
   font-family: proxima-nova, sans-serif;
 }
 
+.freight-sans {
+  font-family: "freight-sans-pro", sans-serif !important;
+}
+
 .headshot {
   display: block;
   margin: auto;
