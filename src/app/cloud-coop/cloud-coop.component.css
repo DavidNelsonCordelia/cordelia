@@ -67,7 +67,7 @@ h2 {
 
 .image {
   width: 95%;
-  height: auto;
+  /*height: auto;*/
   padding-top: 2em;
   /*display: block;*/
   /*margin-left: auto;*/
