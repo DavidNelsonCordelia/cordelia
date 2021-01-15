@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
-import { map } from 'rxjs/operators';
-import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/layout';
+import {Component} from '@angular/core';
+import {map} from 'rxjs/operators';
+import {Breakpoints, BreakpointState, BreakpointObserver} from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-cloud-coop',
@@ -10,5 +10,18 @@ import { Breakpoints, BreakpointState, BreakpointObserver } from '@angular/cdk/l
 
 
 export class CloudCoopComponent {
-  constructor() {}
+
+  constructor() {
+  }
+
+  public scrollToLocation(id) {
+    const element = document.getElementById(id);
+
+    setTimeout(function () {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }, 400);
+  }
 }

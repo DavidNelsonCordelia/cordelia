@@ -10,6 +10,18 @@
   font-family: freight-sans-pro, sans-serif;
 }
 
+.less-fancy-header {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  font-size: 1.25em;
+  /*color: #006834;*/
+  /*text-align: center;*/
+  /*padding-left: 2.5em;*/
+  /*padding-right: 2.5em;*/
+  font-family: freight-sans-pro, sans-serif;
+}
+
 @media (max-width: 420px) {
   .fancy-header {
     letter-spacing: 0.1em;
@@ -89,6 +101,7 @@ a {
 
 a:hover {
   font-weight: bold;
+  cursor: pointer;
 }
 
 .green-background {

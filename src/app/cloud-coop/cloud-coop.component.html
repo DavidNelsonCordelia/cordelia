@@ -1,81 +1,41 @@
 <div class="wrapper">
   <div class="green-background">
-    <div class="padding-1">
-      Cloud Co-op by
-      <a class="reverse-text" routerLink="/dashboard">Cordelia</a>
+    <div class="padding-1 flex-container flex-row align-center">
+      <span class="less-fancy-header">Cloud Co-op</span>
+
+      <div class="fill-remaining-space"></div>
+      <div class="flex-row flex-container">
+        <a class="reverse-text padding-r-1" (click)="scrollToLocation('howItWorks')">how it works</a>
+        <a class="reverse-text padding-r-1" (click)="scrollToLocation('features')">features</a>
+        <a class="reverse-text padding-r-1" (click)="scrollToLocation('clients')">clients</a>
+        <a class="reverse-text padding-r-1" (click)="scrollToLocation('pricing')">pricing</a>
+        <a class="reverse-text padding-r-1" (click)="scrollToLocation('contact')">contact</a>
+      </div>
     </div>
   </div>
 
   <div class="white-background flex-container justify-content-center">
-    <div class="fancy-header padding-1" style="line-height: 1.5em;">
+    <div class="fancy-header padding-lrt-1" style="line-height: 1.5em;">
       Cloud Co-op is an online shopping platform designed specifically with co-ops in mind.
     </div>
-  </div>
-
-  <div class="light-background">
-    <!--<div class="flex-container justify-content-center">-->
-    <!--<h1 class="padding-1">-->
-    <!--Features </h1>-->
-    <!--</div>-->
-    <div class="card-deck padding-lr-2">
-      <mat-card class="deck-card">
-        <mat-card-title>Smooth shopping experience</mat-card-title>
-        <mat-card-content>Our simple, modern user interface makes shopping pleasant and easy for your customers.
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="deck-card">
-        <mat-card-title>Your brand</mat-card-title>
-        <mat-card-content>We style the online store with your branding to create a familiar environment to shoppers.
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="deck-card">
-        <mat-card-title>Responsive web application</mat-card-title>
-        <mat-card-content>Accessible from any wifi enabled device directly through the browser; no need to download
-          anything.
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="deck-card">
-        <mat-card-title>Data integration</mat-card-title>
-        <mat-card-content>Our experience with industry standard technology, including Catapult,
-          allows us to smoothly upload your inventory and keep it current with automatic updates.
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="deck-card">
-        <mat-card-title>Secure transactions & storage</mat-card-title>
-        <mat-card-content>Modern transaction processing and storage of user data keeps you and your customers safe.
-        </mat-card-content>
-      </mat-card>
-      <mat-card class="deck-card">
-        <mat-card-title>Long term support</mat-card-title>
-        <mat-card-content>Because we utilize established, industry standard software including Stripe, Amazon, and
-          Angular, you never need to worry about your store degrading over time.
-        </mat-card-content>
-      </mat-card>
-    </div>
-    <br>
   </div>
 
   <div class="white-background">
     <div class="flex-container justify-space-around" style="flex-direction: column;align-items: center;">
       <img class="image" src="../../assets/mockup-5-11-20-01.png">
     </div>
-
-    <!--<div class="flex-container justify-content-center">-->
-    <!--<h1>-->
-    <!--See the live <a class="accent" href="https://moscowfoodcoop.cloudcoop.info/">Moscow Food Co-op store</a>!-->
-    <!--</h1>-->
-    <!--</div>-->
   </div>
 
-  <div class="light-background">
+  <div class="light-background" id="howItWorks">
     <div class="flex-container justify-content-center">
-      <h1 class="padding-lr-1" style="width: 100%">
-        How It Works </h1>
+      <h1 style="line-height: 1.5em; width: 100%; margin-bottom:0">
+        how it works
+      </h1>
       <h2>
         Three user types with unique interfaces come together to create the smooth operation of your online store,
         enabling you to provide pick-up and delivery service to your customers.</h2>
     </div>
-    <div class="card-deck padding-lrb-2">
+    <div class="card-deck padding-lr-2">
       <mat-card class="deck-card">
         <mat-icon class="big-icon">calendar_today</mat-icon>
         <mat-card-title>Administrator</mat-card-title>
@@ -102,50 +62,109 @@
     <br>
   </div>
 
-  <div class="white-background flex-container justify-content-center">
-    <h1 class="padding-lr-2">
-      Features designed specifically for co-ops </h1>
+  <div class="white-background" id="features">
+    <div class="flex-container justify-content-center">
+      <h1 style="line-height:1.5em">
+        features </h1>
+    </div>
     <div class="card-deck padding-lr-2">
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Smooth shopping experience</mat-card-title>
+        <mat-card-content>Our simple, modern user interface makes shopping pleasant and easy for your customers.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Your brand</mat-card-title>
+        <mat-card-content>We style the online store with your branding to create a familiar environment to shoppers.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Responsive web application</mat-card-title>
+        <mat-card-content>Accessible from any wifi enabled device directly through the browser; no need to download
+          anything.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Data integration</mat-card-title>
+        <mat-card-content>Our experience with industry standard technology, including Catapult,
+          allows us to smoothly upload your inventory and keep it current with automatic updates.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Secure transactions & storage</mat-card-title>
+        <mat-card-content>Modern transaction processing and storage of user data keeps you and your customers safe.
+        </mat-card-content>
+      </mat-card>
+      <mat-card class="deck-card light-background">
+        <mat-card-title>Long term support</mat-card-title>
+        <mat-card-content>Because we utilize established, industry standard software including Stripe, Amazon, and
+          Angular, you never need to worry about your store degrading over time.
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <br>
+  </div>
+
+  <div class="light-background flex-container justify-content-center">
+    <h1 style="line-height: 1.5em; width: 100%">
+      specifically designed for co-ops
+    </h1>
+    <div class="card-deck padding-lrb-2">
       <mat-card class="deck-card">
         <mat-card-title>By-donation Service Fee</mat-card-title>
         <mat-card-content>
-          Many co-ops are torn between wanting to offer curbside and delivery free of service fees to ensure accessibility for all, and needing to make the services financially sustainable. So, we created the by-donation service fee, which allows your customers to contribute whatever amount they are able when making an order.
+          Many co-ops are torn between wanting to offer curbside and delivery free of service fees to ensure
+          accessibility for all, and needing to make the services financially sustainable. So, we created the
+          by-donation service fee, which allows your customers to contribute whatever amount they are able when making
+          an order.
         </mat-card-content>
       </mat-card>
       <mat-card class="deck-card">
         <mat-card-title>Round Up at Checkout</mat-card-title>
-        <mat-card-content>If your store offers a round-up program, we can configure Cloud Co-op to allow your online customers to participate. During checkout they will be able to opt-in to round up their total, just like they would in the store. You can even update the recipient of these donations as it changes from month to month.
+        <mat-card-content>If your store offers a round-up program, we can configure Cloud Co-op to allow your online
+          customers to participate. During checkout they will be able to opt-in to round up their total, just like they
+          would in the store. You can even update the recipient of these donations as it changes from month to month.
         </mat-card-content>
       </mat-card>
       <mat-card class="deck-card">
         <mat-card-title>Special Orders</mat-card-title>
         <mat-card-content>
-          Cloud Co-op can be configured to offer anything your store sells via pre-order or special order. These could be seasonal items, like pies or turkeys, one-off creations like special occasion cakes, or perhaps catering dishes...anything you want to collect payment for up front and schedule a pickup date at a later time, we can handle!
+          Cloud Co-op can be configured to offer anything your store sells via pre-order or special order. These could
+          be seasonal items, like pies or turkeys, one-off creations like special occasion cakes, or perhaps catering
+          dishes...anything you want to collect payment for up front and schedule a pickup date at a later time, we can
+          handle!
         </mat-card-content>
       </mat-card>
       <mat-card class="deck-card">
         <mat-card-title>Owner Applications and Equity Payments</mat-card-title>
         <mat-card-content>
-          Member-owners are what make a co-op a co-op, so it only makes sense to incorporate ownership into your online-ordering system. We can configure your store to allow customers to apply for ownership and pay equity conveniently online. It's as simple as customers filling out a form and entering payment information. Then, we email you their application information so you can reconcile it with any ownership management system!
+          Member-owners are what make a co-op a co-op, so it only makes sense to incorporate ownership into your
+          online-ordering system. We can configure your store to allow customers to apply for ownership and pay equity
+          conveniently online. It's as simple as customers filling out a form and entering payment information. Then, we
+          email you their application information so you can reconcile it with any ownership management system!
         </mat-card-content>
       </mat-card>
       <mat-card class="deck-card">
         <mat-card-title>Analytical Tools</mat-card-title>
-        <mat-card-content>The Lost Sales Report provides useful feedback to assist in purchasing and production decisions by recording the dollar value and number of times items are ordered online but found to be out of stock during order fulfilment.
-          Popular Order Times is a handy chart which uses your store's history of recent orders to track ordering patterns over time! This can help you understand what days and times of day are most popular for online orders and anticipate when you will need extra staff on hand.
+        <mat-card-content>The Lost Sales Report provides useful feedback to assist in purchasing and production
+          decisions by recording the dollar value and number of times items are ordered online but found to be out of
+          stock during order fulfilment.
+          Popular Order Times is a handy chart which uses your store's history of recent orders to track ordering
+          patterns over time! This can help you understand what days and times of day are most popular for online orders
+          and anticipate when you will need extra staff on hand.
         </mat-card-content>
       </mat-card>
     </div>
   </div>
 
-  <div class="light-background  justify-content-center flex-container">
+  <div class="white-background  justify-content-center flex-container" id="clients">
     <h1 style="line-height: 1.5em; width: 100%">
-      Our clients
+      our clients
     </h1>
     <div class="card-deck padding-lrb-2" style="width: 100%">
       <mat-card class="deck-card">
         <a href="https://www.moscowfood.coop/">
-          <img class="headshot"src="../../assets/mfc_logo_color.jpg" height="80"/>
+          <img class="headshot" src="../../assets/mfc_logo_color.jpg" height="80"/>
         </a>
         <mat-card-content style="padding-top:1em;text-align: center">
           Located in Moscow, ID. <a class="accent" href="https://moscowfoodcoop.cloudcoop.info/">See their store.</a>
@@ -164,14 +183,32 @@
           <img class="headshot" src="../../assets/cmlogo.png" height="80"/>
         </a>
         <mat-card-content style="padding-top:1em;text-align: center">
-          Located in Pittsboro, NC. <a class="accent" href="http://chathammarketplace.cloudcoop.info/">See their store.</a>
+          Located in Pittsboro, NC. <a class="accent" href="http://chathammarketplace.cloudcoop.info/">See their
+          store.</a>
         </mat-card-content>
       </mat-card>
     </div>
   </div>
 
-  <div class="white-background">
-    <h1 class="padding-lr-1">Contact Us</h1>
+  <div class="light-background" id="pricing">
+    <div class="flex-container justify-content-center">
+      <h1 style="line-height: 1.5em; width: 100%; margin-bottom:0">
+        pricing
+      </h1>
+      <h2>
+        We know offering curbside and delivery services is a heavy lift for co-ops, so our pricing is simple - we charge 3% on
+        transactions through Cloud Co-op, billed monthly. That's it! No set-up fee, no monthly fee. We succeed when you
+        succeed.</h2>
+    </div>
+    <br>
+  </div>
+
+  <div class="white-background" id="contact">
+    <div class="flex-container justify-content-center">
+      <h1 style="line-height: 1.5em; width: 100%; margin-bottom:0">
+        contact us
+      </h1>
+    </div>
     <div class="card-deck padding-lrb-2" style="justify-content: center !important">
       <mat-card class="deck-card" style="max-width: 300px;">
         <mat-card-title>Find Us Online</mat-card-title>
@@ -196,17 +233,16 @@
           <!--<br>-->
 
           <!--<div style="display:flex; flex-direction:row">-->
-            <!--<i class="accent material-icons" style="padding-right:5px; width:25px">place</i>-->
-            <!--Cordelia Software and Design, LLC <br>-->
-            <!--804 East E St.<br>-->
-            <!--Moscow, ID<br>-->
-            <!--83843-->
+          <!--<i class="accent material-icons" style="padding-right:5px; width:25px">place</i>-->
+          <!--Cordelia Software and Design, LLC <br>-->
+          <!--804 East E St.<br>-->
+          <!--Moscow, ID<br>-->
+          <!--83843-->
           <!--</div>-->
         </mat-card-content>
       </mat-card>
     </div>
   </div>
-
 
   <div class="green-background flex-container justify-content-center">
     <div class="padding-1">
